@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-05T15:55:09 IST" name="Default suite" finished-at="2025-05-05T15:55:31 IST" duration-ms="21953">
+  <suite started-at="2025-05-08T20:51:11 IST" name="Suite" finished-at="2025-05-08T20:51:34 IST" duration-ms="23329">
     <groups>
     </groups>
-    <test started-at="2025-05-05T15:55:09 IST" name="Default test" finished-at="2025-05-05T15:55:31 IST" duration-ms="21953">
+    <test started-at="2025-05-08T20:51:11 IST" name="Chrometest" finished-at="2025-05-08T20:51:34 IST" duration-ms="23329">
       <class name="Testes.Nopecommersoginpagetest">
-        <test-method is-config="true" signature="browsersetup()[pri:0, instance:Testes.Nopecommersoginpagetest@3c41ed1d]" started-at="2025-05-05T15:55:10 IST" name="browsersetup" finished-at="2025-05-05T15:55:21 IST" duration-ms="11776" status="PASS">
+        <test-method is-config="true" signature="browsersetup(java.lang.String)[pri:0, instance:Testes.Nopecommersoginpagetest@6025e1b6]" started-at="2025-05-08T20:51:11 IST" name="browsersetup" finished-at="2025-05-08T20:51:23 IST" duration-ms="12157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsersetup -->
-        <test-method signature="testvalidlogin()[pri:0, instance:Testes.Nopecommersoginpagetest@3c41ed1d]" started-at="2025-05-05T15:55:21 IST" name="testvalidlogin" finished-at="2025-05-05T15:55:31 IST" duration-ms="9449" status="PASS">
+        <test-method signature="testvalidlogin()[pri:0, instance:Testes.Nopecommersoginpagetest@6025e1b6]" started-at="2025-05-08T20:51:23 IST" name="testvalidlogin" finished-at="2025-05-08T20:51:32 IST" duration-ms="9113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testvalidlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testes.Nopecommersoginpagetest@3c41ed1d]" started-at="2025-05-05T15:55:31 IST" name="teardown" finished-at="2025-05-05T15:55:31 IST" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testes.Nopecommersoginpagetest@6025e1b6]" started-at="2025-05-08T20:51:32 IST" name="teardown" finished-at="2025-05-08T20:51:34 IST" duration-ms="1988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Testes.Nopecommersoginpagetest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Chrometest -->
+  </suite> <!-- Suite -->
 </testng-results>
